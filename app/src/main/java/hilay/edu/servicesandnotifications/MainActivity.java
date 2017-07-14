@@ -1,5 +1,6 @@
 package hilay.edu.servicesandnotifications;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -8,7 +9,6 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.firebase.jobdispatcher.Constraint;
 import com.firebase.jobdispatcher.FirebaseJobDispatcher;
@@ -69,10 +69,12 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences("id", MODE_PRIVATE);
 
         String token = prefs.getString("token", "");
-        Toast.makeText(this, token, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, token, Toast.LENGTH_SHORT).show();
         Log.d("Ness", token);
 
-        recurringJob();
+//        recurringJob();
+        Intent intent = new Intent(this, ChooserActivity.class);
+        startActivity(intent);
     }
 
     private void oneTimeJobNow() {
