@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "374151666941",
+    "firebase_url": "https://servicesandnotifications-c4fa9.firebaseio.com",
+    "project_id": "servicesandnotifications-c4fa9",
+    "storage_bucket": "servicesandnotifications-c4fa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374151666941:android:ca4a371b35274f74",
+        "android_client_info": {
+          "package_name": "hilay.edu.servicesandnotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374151666941-8so0bl6mm79n81b97qmcja3a3mjo0uen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hilay.edu.servicesandnotifications",
+            "certificate_hash": "7bf473e035b8bb4dbc29d4b64d03f11615b48b57"
+          }
+        },
+        {
+          "client_id": "374151666941-httsrvb29efkdt2vnen5f3bgb5odeblk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGtnEQXRkfnyvsTqvS3XNAlg2_gFMxxU0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374151666941-httsrvb29efkdt2vnen5f3bgb5odeblk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
